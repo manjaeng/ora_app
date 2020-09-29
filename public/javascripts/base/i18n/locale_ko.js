@@ -1,0 +1,29 @@
+;(function($) {
+	OVERPASS.GRID.MESSAGE = {
+		invalid_column_id: "컬럼ID가 셋팅되어 있지 않습니다.",
+		dup_column_id: "컬럼ID가 중복되었습니다. [{0}]",
+		invalid_combo: "콤보셋팅값이 올바르지 않습니다.",
+		total : "총",
+		count: "건",
+		qty: "개",
+		dup_grid_id: "동일한 ID로 그리드를 중복 생성할 수 없습니다.",
+		invalid_excel_sample_id: "엑셀샘플 id가 없습니다.!",
+		invalid_excel_sample_name: "엑셀샘플 파일명이 없습니다.",
+		invalid_multi_header: "headerlines과 columnheaders 정보가 올바르지 않습니다.",
+		invalid_action: "action 미지정",
+		invalid_value: "값을 입력하세요",
+		invalid_direction: "이동할 방향을 지정하세요!",
+		invalid_row_number: "row 번호를 지정하세요!",
+		invalid_column_id: "컬럼id값이 없습니다.",
+		invalid_set_value: "값이 지정되어 있지 않습니다[SetValue].",
+		invalid_checked_value: "checked값이 올바르지 않습니다.",
+		invalid_crud: "CRUD를 입력하세요.",
+		invalid_search_value: "검색어를 입력하세요.",
+		invalid_color: "color를 입력하세요.",
+		invalid_color_info: "색상정보가 올바르지 않습니다.",
+		save_success: "저장이 완료되었습니다.",
+		save_fail: "저장에 실패하였습니다.\nerror_type : {0}\nerror_message : {1}",
+		save_other_fail: "{1}",
+		invalid_row_drag_target : "drag 할 element id가 지정되어 있지 않습니다."
+	};
+})(jQuery);

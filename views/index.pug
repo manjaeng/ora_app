@@ -1,5 +1,12 @@
-extends layout
-
-block content
-  h1= title
-  p Welcome to #{title}
+doctype html
+html(leng='en')
+	head
+		script.			
+			function aaa(){
+				console.log('click')
+				window.openner.location.href='https://loc-fo.sivillage.com/order/registBillkeyApprove.siv'
+			}                                
+	body
+		p Welcome to #{title}
+		button(type='button' , onclick ='aaa()') click
+ 

@@ -1,0 +1,14 @@
+[version]
+signature="$CHICAGO$"
+AdvancedINF=2.0
+
+[Add.Code]
+LucisCRC4Ctrl.dll=LucisCRC4Ctrl.dll
+
+[LucisCRC4Ctrl.dll]
+file-win32-x86=thiscab
+RegisterServer=yes
+clsid={82924647-B4FA-45D9-BA56-47DBF41A568C}
+DestDir=
+FileVersion=4,0,0,4
+

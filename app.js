@@ -9,6 +9,19 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
+var mysql = require('mysql')
+
+var connection = mysql.createConnection({
+	host:"127.0.0.1",
+	port:"3306",
+	user:"root",
+	password:"notidd00",
+	database:"jiv_dev"
+})
+
+connection.connect()
+
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
