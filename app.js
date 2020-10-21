@@ -8,18 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
-
-var mysql = require('mysql')
-
-var connection = mysql.createConnection({
-	host:"127.0.0.1",
-	port:"3306",
-	user:"root",
-	password:"notidd00",
-	database:"jiv_dev"
-})
-
-connection.connect()
+var bodyPaser = require('body-parser');
 
 
 // view engine setup
@@ -28,7 +17,8 @@ app.set('view engine', 'pug');
 
 app.use(logger('dev'));
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(bodyPaser.urlencoded({extended:true}));
+app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
